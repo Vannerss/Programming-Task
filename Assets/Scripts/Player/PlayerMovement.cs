@@ -4,26 +4,32 @@ using Managers.Inputs;
 
 namespace Player
 {
-    [RequireComponent(typeof(CharacterController))]
+    [RequireComponent(typeof(Rigidbody2D), typeof(Animator))]
     public class PlayerMovement : MonoBehaviour
     {
         [SerializeField] private float moveSpeed = 5f;
-        
+
         private InputManager _input;
-        private CharacterController _controller;
-        
+        private Rigidbody2D _rigidbody;
+        private Animator _animator;
+        private static readonly int BlendX = Animator.StringToHash("BlendX");
+        private static readonly int BlendY = Animator.StringToHash("BlendY");
+
         private void Start()
         {
             _input = InputManager.Instance;
-            _controller = GetComponent<CharacterController>();
+            _rigidbody = GetComponent<Rigidbody2D>();
+            _animator = GetComponent<Animator>();
         }
 
         private void FixedUpdate()
         {
-            Vector2 inputDirection = _input.GetMovementDirection();
+            Vector2 moveDirection = _input.GetMovementDirection();
+
+            _animator.SetFloat(BlendX, moveDirection.x);
+            _animator.SetFloat(BlendY, moveDirection.y);
             
-            Vector3 moveDirection = new Vector3(inputDirection.x, inputDirection.y, 0f).normalized;
-            _controller.Move(moveDirection * (moveSpeed * Time.fixedDeltaTime));
+            _rigidbody.velocity = moveDirection.normalized * moveSpeed;
         }
     }
 }
