@@ -1,5 +1,6 @@
 ﻿using UnityEditor.Animations;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace SOScripts
 {
@@ -7,7 +8,9 @@ namespace SOScripts
     public class Clothes : ScriptableObject
     {
         public string clotheName;
-        public Sprite clotheSprite;
+        public Sprite clotheIconSprite;
+        public Sprite clotheBodySprite;
+        public int baseClotheCost;
         public int clotheCost;
         public AnimatorController clotheAnimController;
     }

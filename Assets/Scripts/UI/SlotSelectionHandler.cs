@@ -15,9 +15,9 @@ namespace UI
             _inventoryUI = transform.parent.GetComponent<InventoryUI>();
         }
 
+        //Handles inventory slot selection. When slot image is clicked.
         public void OnPointerClick(PointerEventData eventData)
         {
-            Debug.Log("CLICKED");
             if (transform.GetChild(0).gameObject.activeSelf)
                 _inventoryUI.ClotheSelected(clothe, this.transform);
         }

@@ -26018,27 +26018,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_tileset_sunnysideworld_16px_1234
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 544
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e452f4c653087ea40b2210fc91e1df93
-      internalID: -558386062
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: spr_tileset_sunnysideworld_16px_1235
       rect:
         serializedVersion: 2
@@ -26841,7 +26820,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 640
-        y: 528
+        y: 532
         width: 16
         height: 16
       alignment: 0

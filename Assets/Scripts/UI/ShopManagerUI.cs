@@ -1,19 +1,14 @@
-﻿using System;
+﻿using Managers.Inputs;
+using Player;
 using SOScripts;
+using TMPro;
 using UnityEngine;
-using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 namespace UI
 {
     public class ShopManagerUI : MonoBehaviour
     {
-        /*
-         * TODO: Be able to select and item, display item info on middle panel
-         * activate the buy or sell button depending if selected from player or shop.
-         * be able to buy or sell, and update the inventory.
-         */
-
         [Header("Inventory Panels")]
         [SerializeField] private GameObject playerInventoryPanel;
         [SerializeField] private InventoryUI playerInventoryUI;
@@ -22,83 +17,138 @@ namespace UI
         [Space, SerializeField] private GameObject infoPanel;
 
         [Header("UI Elements")] 
+        [SerializeField] private Image clothePreview;
         [SerializeField] private Button closeButton;
+        [SerializeField] private TextMeshProUGUI costLabel;
         [SerializeField] private Button buyButton;
         [SerializeField] private Button sellButton;
         [SerializeField] private GameObject indicator;
         
-
         private Clothes _selectedClothes;
+        private PlayerManager _playerManager;
+        private InputManager _inputManager;
 
         private void Start()
         {
+            _playerManager = PlayerManager.Instance;
+            _inputManager = InputManager.Instance;
+            //Subscribing methods to corresponding button clicks.
             buyButton.onClick.AddListener(Buy);
             sellButton.onClick.AddListener(Sell);
             closeButton.onClick.AddListener(CloseShop);
         }
 
-        private void OnEnable()
+        #region Open & Close
+
+        /// <summary>
+        /// Open the shop interface.
+        /// </summary>
+        public void OpenShop()
         {
             playerInventoryUI.OnSlotSelected += PlayerInventoryUISelected;
             shopInventoryUI.OnSlotSelected += ShopInventoryUISelected;
-        }
-
-        private void OnDisable()
-        {
-            playerInventoryUI.OnSlotSelected -= PlayerInventoryUISelected;
-            playerInventoryUI.OnSlotSelected -= ShopInventoryUISelected;
-        }
-
-        public void OpenShop()
-        {
+            _selectedClothes = null;
+            indicator.SetActive(false);
+            costLabel.text = "0";
             playerInventoryPanel.SetActive(true);
             shopInventoryPanel.SetActive(true);
             infoPanel.SetActive(true);
+            
+            _inputManager.DisableMovement();
         }
 
         private void CloseShop()
         {
-            playerInventoryUI.gameObject.SetActive(false);
-            shopInventoryUI.gameObject.SetActive(false);
+            playerInventoryUI.OnSlotSelected -= PlayerInventoryUISelected;
+            playerInventoryUI.OnSlotSelected -= ShopInventoryUISelected;
+            playerInventoryPanel.SetActive(false);
+            shopInventoryPanel.SetActive(false);
             infoPanel.SetActive(false);
+            indicator.SetActive(false);
+            
+            _inputManager.EnableMovement();
         }
 
+        #endregion
+
+        #region InventorionSelections
+
+        //Handles selection from player's inventory.
         private void PlayerInventoryUISelected(Clothes clothe)
         {
             _selectedClothes = clothe;
-            Debug.Log(_selectedClothes.name);
+            costLabel.text = _selectedClothes.clotheCost.ToString();
+
             sellButton.gameObject.SetActive(true);
             buyButton.gameObject.SetActive(false);
-        }        
+
+            clothePreview.gameObject.SetActive(true);
+            clothePreview.sprite = _selectedClothes.clotheBodySprite;
+        }
+        
+        //Handles selection from shop's inventory.
         private void ShopInventoryUISelected(Clothes clothe)
         {
             _selectedClothes = clothe;
-            Debug.Log(_selectedClothes.name);
+            costLabel.text = _selectedClothes.baseClotheCost.ToString();
+
             buyButton.gameObject.SetActive(true);
             sellButton.gameObject.SetActive(false);
+
+            clothePreview.gameObject.SetActive(true);
+            clothePreview.sprite = _selectedClothes.clotheBodySprite;
         }
 
+        #endregion
+
+        #region Buy & Sell
+
+        //Buys the selected clothing item.
         private void Buy()
         {
-            //TODO: Remove money from player. Remove clothes from shop inv. Add Clothes to player inv. Refresh Inventories.
+            if (_selectedClothes.clotheCost > _playerManager.Gold)
+            {
+                Debug.Log("Not enough gold.");
+                return;
+            }
             
             var clothe = _selectedClothes;
+            _playerManager.ReduceGold(clothe.baseClotheCost);
+            
+            //make clothes sell for cheaper after purchase.
+            clothe.clotheCost -= (int)(clothe.clotheCost * 0.20f);
+            
             playerInventoryUI.clothesInventory.AddClothes(clothe);
             shopInventoryUI.clothesInventory.RemoveClothes(clothe);
-            _selectedClothes = null;
-            indicator.SetActive(false);
-            buyButton.gameObject.SetActive(false);
-            sellButton.gameObject.SetActive(false);
+            
+            ResetSelection();
         }
 
+        //Sells the selected clothing item.
         private void Sell()
         {
-            shopInventoryUI.clothesInventory.AddClothes(_selectedClothes);
-            playerInventoryUI.clothesInventory.RemoveClothes(_selectedClothes);
+            var clothe = _selectedClothes;
+            _playerManager.AddGold(clothe.clotheCost);
+            
+            shopInventoryUI.clothesInventory.AddClothes(clothe);
+            playerInventoryUI.clothesInventory.RemoveClothes(clothe);
+            
+            ResetSelection();
+        }
+
+        //Resets selection state to default (off).
+        private void ResetSelection()
+        {
+            clothePreview.sprite = null;
+            clothePreview.gameObject.SetActive(false);
             _selectedClothes = null;
             indicator.SetActive(false);
+            costLabel.text = "0";
+            
             buyButton.gameObject.SetActive(false);
             sellButton.gameObject.SetActive(false);
         }
+        
+        #endregion
     }
 }

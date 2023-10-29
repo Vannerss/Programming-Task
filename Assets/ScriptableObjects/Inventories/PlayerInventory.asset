@@ -12,11 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 679578cb117d4908ba27f1a4408f700e, type: 3}
   m_Name: PlayerInventory
   m_EditorClassIdentifier: 
-  clothesInventory:
-  - {fileID: 11400000, guid: e7532940fe3c9e34f8fd9a99872e9bed, type: 2}
-  - {fileID: 11400000, guid: e7532940fe3c9e34f8fd9a99872e9bed, type: 2}
-  - {fileID: 11400000, guid: e7532940fe3c9e34f8fd9a99872e9bed, type: 2}
-  - {fileID: 11400000, guid: e7532940fe3c9e34f8fd9a99872e9bed, type: 2}
-  - {fileID: 11400000, guid: e7532940fe3c9e34f8fd9a99872e9bed, type: 2}
-  - {fileID: 11400000, guid: e7532940fe3c9e34f8fd9a99872e9bed, type: 2}
-  - {fileID: 11400000, guid: e7532940fe3c9e34f8fd9a99872e9bed, type: 2}
+  clothesInventory: []

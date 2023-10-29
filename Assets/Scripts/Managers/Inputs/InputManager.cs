@@ -58,5 +58,8 @@ namespace Managers.Inputs
 
             OnInteract?.Invoke(isInteracting);
         }
+
+        public void EnableMovement() => _move.Enable();
+        public void DisableMovement() => _move.Disable();
     }
 }

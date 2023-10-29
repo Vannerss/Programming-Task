@@ -23,8 +23,8 @@ namespace UI
         {
             clothesInventory.OnInventoryChanged -= RefreshInventory;
         }
-
-        [Button]
+        
+        //Refreshes the inventory displayed items.
         private void RefreshInventory()
         {
             int index = 0;
@@ -34,7 +34,7 @@ namespace UI
                 var slotClothe = slot.GetComponent<SlotSelectionHandler>();
                 var slotIcon = slot.GetChild(0).GetComponent<Image>();
                 slotClothe.clothe = clothesInventory.clothesInventory[i];
-                slotIcon.sprite = slotClothe.clothe.clotheSprite;
+                slotIcon.sprite = slotClothe.clothe.clotheIconSprite;
                 slotIcon.gameObject.SetActive(true);
                 index++;
             }
@@ -45,6 +45,12 @@ namespace UI
             }
         }
         
+        /// <summary>
+        /// Receives the data from the selected clothe slot in the inventory
+        /// and then invokes and 
+        /// </summary>
+        /// <param name="clothe"></param>
+        /// <param name="clotheSlot"></param>
         public void ClotheSelected(Clothes clothe, Transform clotheSlot)
         {
             if (!indicator.activeSelf)
