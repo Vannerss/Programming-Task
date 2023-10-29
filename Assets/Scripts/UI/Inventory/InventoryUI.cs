@@ -1,10 +1,9 @@
 ﻿using System;
-using NaughtyAttributes;
 using SOScripts;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace UI
+namespace UI.Inventory
 {
     public class InventoryUI : MonoBehaviour
     {

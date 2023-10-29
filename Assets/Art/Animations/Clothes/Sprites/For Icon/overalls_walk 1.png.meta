@@ -1,0 +1,7162 @@
+fileFormatVersion: 2
+guid: 43f80a7cc7154ef4ab8a1091580995ad
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: overalls_walk 1_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 98
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b1567867627294f8f5878cf71e350d
+      internalID: -1366322129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 99
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d057fe0986f0b704c9abc3684d3d5498
+      internalID: -1513653687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 100
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8d9d11666572f4f84981b16f66e7a4
+      internalID: -168392311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_3
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 98
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912d507f9610dbf4da01e31856ddfc77
+      internalID: 1397274680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_4
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 98
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e137671c7a3e442a42c1b1243a7b06
+      internalID: -1715468570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_5
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 99
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e789c1e0e102e44e93017fa7b4b5d3f
+      internalID: -384496516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_6
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 100
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162c3a8c824d2ef4692cab9423676874
+      internalID: 431404313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_7
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 98
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96a146ea8ce86244ab600231e52a3f4
+      internalID: -213971527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_8
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 98
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809a52d071bd38142826b91358ab3556
+      internalID: 1645545912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_9
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 99
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3bd4324cabb4ef458838ac18b4477c2
+      internalID: -1768824861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_10
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 100
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea17e2b1011c8c41afa914223648d2f
+      internalID: -1404138619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_11
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 98
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5693a9f642a4c8247bf17e1b7c1ba1ed
+      internalID: -97179975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_12
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 98
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c049e33d166e74b9e804e6b02d98da
+      internalID: 322457314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_13
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 99
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1cc25f185af494096a865d983967d3
+      internalID: 39617078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_14
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 100
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768fe990f2ffed24b8b23580ddc86d9f
+      internalID: -846689890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_15
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 98
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863695f384af1274fb122e8fed995586
+      internalID: -745001235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_16
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 98
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b96589f7dff7e4ba8a1c62b5ffad41
+      internalID: 19160184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_17
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 99
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbe1fb2ff29b4f4ba15fad7ecc6436c
+      internalID: -59368036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_18
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 100
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06606235c7a43f489f7c079535c57b6
+      internalID: 1108261650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_19
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 98
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9daf6838e9cca7449feac6c785bc3ac
+      internalID: -686278745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_20
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 98
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41004dd777d04bc479d79187252a9bee
+      internalID: 790017170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_21
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 99
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15be7148d5966754fb41071da608bfa8
+      internalID: 710650521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_22
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 100
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cab9a3414e17bc469ab3d5b0fd54fb7
+      internalID: -1733436753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_23
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 98
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020ad9004a3a06f488ff7fcda1cb4674
+      internalID: 36911766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_24
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 98
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ca548b595bcf44f8cb79e74aadf004
+      internalID: -786391957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_25
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 99
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294511536bbefe448838e5bec63ce1ef
+      internalID: -1202924488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_26
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 100
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3961796ea9d4fa46adf90bdca5d6b54
+      internalID: 1639303488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_27
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 98
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76dfe7774ad13a4cbd34b26b9beac61
+      internalID: 872089670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_28
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 98
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309ffb3efdcd84b40b28a0cc12b4d05b
+      internalID: -1155607895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_29
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 99
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce144f54347b2624e9a659d1a46632e1
+      internalID: 394423555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_30
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 100
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3991b756caf346b40872e18e18bb2188
+      internalID: 1440428562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_31
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 98
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ea089eff80a0941bfd0fd8b27ce9f8
+      internalID: 152600856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_32
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 98
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b27734c968b424ebc1f9f9a1735a47
+      internalID: 1750617391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_33
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 99
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b43b81d919568449e63e18dcf006dc
+      internalID: -575240215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_34
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 100
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0872a8e500073104a9bd552fe2215bd2
+      internalID: -580160900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_35
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 98
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b608e8c1df69b4d4d89520693eee5257
+      internalID: 875552856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_36
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 98
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334bbb527ce6d2d48a57e5b39904f10f
+      internalID: -665908159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_37
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 99
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf58b654e1db0a4b8544ae0211e5425
+      internalID: -112478413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_38
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 100
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35853d8d1108ed546b9e2d9ec4db767b
+      internalID: -1841249356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_39
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 98
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a19ed9060099e4984f871a155de3d4
+      internalID: 251940186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_40
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 98
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c32e836f3fa824382a73a4fa9bc3d5
+      internalID: 1534503708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_41
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 99
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6fbb269fda4602468191b453a9bb170
+      internalID: 1998815280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_42
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 100
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8fc886f6aec2f458a18909ab8b17e3
+      internalID: 1729634051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_43
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 98
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc9316c22b81d140b4d88ffca6cf571
+      internalID: 739930328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_44
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 98
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40dac2b9dba8e994cb0ddf5418aecf4d
+      internalID: -1281060300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_45
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 99
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a513a8717a3d14042bc31b1f903c1650
+      internalID: -1568344274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_46
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 100
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9dca0489c9003b4382feda1c00d541e
+      internalID: 1535146331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_47
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 98
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7b2056f88debb4a9ffc132f2f42748
+      internalID: -750890359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_48
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 98
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a858e458565db4dad279ebee41e8ec
+      internalID: 436743361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_49
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 99
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78794478e9331a4a93b0d6a8d60b390
+      internalID: 264449328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_50
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 100
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf670026bd3c8c84485e0eacd2b0967c
+      internalID: -2086369283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_51
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 98
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac1b66665aec4e4b8f508473697d489
+      internalID: -1549026489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_52
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 98
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc93dac510a2724cbc818e4238b1d09
+      internalID: 102564097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_53
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 99
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe1f12b186b6224490077dd9ed0fd9d
+      internalID: -1414071177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_54
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 100
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dce24e98d4a24d47a1f9b6ef4f5db4e
+      internalID: 1447171988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_55
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 98
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95bee079046562447a183b5776b36cae
+      internalID: -26362103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_56
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 98
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1401a73020397f44e9667f5ad10196a6
+      internalID: 1731106148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_57
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 99
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4725b83e1c250438be9ffbf380b33e
+      internalID: -394622753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_58
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 100
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16b4978e3afda44f8586df8bb1d492c
+      internalID: -1616808383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_59
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 98
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b42dfa8cd6dddf4fb1b93842d91bf52
+      internalID: 457051106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_60
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 98
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cece388287e46344e9509fcc55e3469c
+      internalID: 2078188919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_61
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 99
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981ba8afd89d08a47a1249a08ac44acb
+      internalID: -1626678757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_62
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 100
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c818e050fe0664e9d1c719ba82fd0a
+      internalID: 318579616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_63
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 98
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82be5acf2eb5a0c4d88a44fe19c33da0
+      internalID: 1154470066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_64
+      rect:
+        serializedVersion: 2
+        x: 2057
+        y: 98
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46022eae9a09363468d4ef6f746e322e
+      internalID: 1776115156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_65
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 99
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2290be4806b008c46a857c0e2c06080d
+      internalID: -726975514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_66
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 100
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af3f95892223284f8eb44bd6c11d8c8
+      internalID: -767800964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_67
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 98
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feffa84a54279fb4cb776d3f29b427fc
+      internalID: -1798113160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_68
+      rect:
+        serializedVersion: 2
+        x: 2185
+        y: 98
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2670dbd1b0120504b90adedeb8de416e
+      internalID: -444810395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_69
+      rect:
+        serializedVersion: 2
+        x: 2217
+        y: 99
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ade7f19e7e00b4c94c0de546b869e9
+      internalID: -677759012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_70
+      rect:
+        serializedVersion: 2
+        x: 2251
+        y: 100
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d914adecdcbcfb4d94d4302ee7f7fee
+      internalID: 1543491177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_71
+      rect:
+        serializedVersion: 2
+        x: 2282
+        y: 98
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b05f03c7c2988f4f99543814d5c8ba3
+      internalID: -743538010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_72
+      rect:
+        serializedVersion: 2
+        x: 2312
+        y: 98
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3cdd42089ebe1547babba41b2fa93de
+      internalID: 1370043254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_73
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 99
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ca1b133b198b84cb0d9c6f8a00ab7e
+      internalID: 2043162825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_74
+      rect:
+        serializedVersion: 2
+        x: 2379
+        y: 100
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af8cf180239cdf45b3e4a4fdc86bfbf
+      internalID: -589369476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_75
+      rect:
+        serializedVersion: 2
+        x: 2411
+        y: 98
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82b75c36290f8f4a9395112968717ab
+      internalID: -1076100244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_76
+      rect:
+        serializedVersion: 2
+        x: 2441
+        y: 98
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402c9b1f9ca5abc40950df8edd30aa65
+      internalID: 109029736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_77
+      rect:
+        serializedVersion: 2
+        x: 2472
+        y: 99
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929cc47558475d04ea46c8ca5a03c405
+      internalID: 112443331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_78
+      rect:
+        serializedVersion: 2
+        x: 2507
+        y: 100
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a81c61b9e73be45915a30df5c29d33
+      internalID: -33312208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_79
+      rect:
+        serializedVersion: 2
+        x: 2539
+        y: 98
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e194a6714fe8f74fb64e19fa9a877bd
+      internalID: -1627017000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_80
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 67
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5feaf8ddca4e94a9635404417e6144
+      internalID: -467636239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_81
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 67
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36209229fedaa3d4ba59242f584e66a1
+      internalID: 111316610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_82
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 68
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bdc2275497f5424cb74c9e17afbd220
+      internalID: -1600676561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_83
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 67
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b010693331bbf2f41bd988a04a30fe07
+      internalID: 2015866909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_84
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 67
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d8d6a56adce36478c73a84f9c3914c
+      internalID: 654703177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_85
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 67
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99eb4ee0b1796e84786feb5402ecc744
+      internalID: -1390365203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_86
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 68
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd59674e6d7fa54d9cb173dd397e1ef
+      internalID: 1139692867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_87
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 67
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5b1a62db6b78642b0a62864fe7e02f
+      internalID: 699493532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_88
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 67
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf4087d553ea7749ab93237f22a3049
+      internalID: -1121313119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_89
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 67
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c3a81d7fde61545b5ddb2450bed771
+      internalID: 477938351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_90
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 68
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b359f6b94f228f43a125f351ff38778
+      internalID: 624615978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_91
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 67
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2404afdba8f08dd4aabef2a987c6a581
+      internalID: -2035512950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_92
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 67
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a64fa9c79c0d54d9c53b30ebed3619
+      internalID: -1481501664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_93
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 67
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b551f0129598c49bf13a00c9df5ff4
+      internalID: 866308378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_94
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 68
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4973b459b753bb848b055f54d71ce646
+      internalID: -2093979726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_95
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 67
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c978d36feaf1acb4499698396f42c880
+      internalID: 440141696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_96
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 67
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50d40f20b3913d4d90f3f9c0049daa4
+      internalID: 2121355976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_97
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 67
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a9470d4cc1c5d4dacc9b543d35f3fc
+      internalID: 1894078597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_98
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 68
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60cd63e76c38e74c9bb5920f85e5a62
+      internalID: 1270981703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_99
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 67
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aaede357aab3434a89b913864e67e7c
+      internalID: 990136703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_100
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 67
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411eddec22d796a448ad688e614676f1
+      internalID: 176654708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_101
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 67
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c5dc85c99c7844ca95799aa5e236e5
+      internalID: 2114620617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_102
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 68
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f69d2b0cc058c4dbc0cb691d9a8bfd
+      internalID: -392910848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_103
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 67
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be0f3ca815c0c54f92aada4b38fa321
+      internalID: -1940414029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_104
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 67
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b210f7eee2f842442a325d6cf7a9074c
+      internalID: -1392499684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_105
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 67
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9e7719e0404784dbc200c690dc54b0
+      internalID: 1718010509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_106
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 68
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a0245459a287e40af872a3d5dda08a
+      internalID: 9580651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_107
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 67
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f256d4c6ba054c448a4f19c8e85b30a
+      internalID: -648784318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_108
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 67
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee6a24a07a06084689d11665ff0258b
+      internalID: 44729725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_109
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 67
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6f10c50db31d945a3c6ca7edd4a78c
+      internalID: -395035202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_110
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 68
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b316ada408b594cb6af4873c632311
+      internalID: -1320319821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_111
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 67
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca87d7c02e995d74aae42d8f9240b8df
+      internalID: -193271467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_112
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 67
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b38597b9e21bf4b8de22e0319c2090
+      internalID: -1741736021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_113
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 67
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610ea822a0c49a342b1f740aa74d9532
+      internalID: -2140538300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_114
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 68
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ea038e220df8744ad851f546d7fdfd
+      internalID: -1139786222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_115
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 67
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17419a87286d0649b32555f8dd49e18
+      internalID: -1289318741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_116
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 67
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9363dc98fce5a4dbc20465fe92f413
+      internalID: 1847591263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_117
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 67
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d86a1d2b6160540893a6ab7130f4a2
+      internalID: 452967761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_118
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 68
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4acf7c2b90faf734b930a48cb1a2bdfe
+      internalID: -1964921055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_119
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 67
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c49c8ea0c0f0840a5b9ac1171b2b1a
+      internalID: -1808715736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_120
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 67
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898f624aa385761478dde49d811fb074
+      internalID: 141110497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_121
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 67
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3462ac57de41a58459244c606bbef3a3
+      internalID: 552321565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_122
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 68
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a8e2927ea5e5941862ed5700496944
+      internalID: -2089883007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_123
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 67
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7943d11455c4624bba4b49430131697
+      internalID: 1317187364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_124
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 67
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21eb3f110aa52f6439092b9113aa8741
+      internalID: 285925548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_125
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 67
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f933cff83c0fd74899b110df9365165
+      internalID: -493061408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_126
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 68
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc533a941a96fdf4caf38484d0bcd33c
+      internalID: 1423725567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_127
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 67
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ccbbf2b1330de4d94ba0b6d61474d8
+      internalID: -345284508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_128
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 67
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05710e9a821b61641aed6f01f89d02b6
+      internalID: 280298538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_129
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 67
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5ce249ce36d904e86c441a81cddd74
+      internalID: 1287994112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_130
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 68
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cecd015e1d627248a4771cc8577d052
+      internalID: 235618161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_131
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 67
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b35deb619ca3b145a5866e25c66407b
+      internalID: 1481359223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_132
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 67
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986037856079b764eb495add02297e6d
+      internalID: -1911429515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_133
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 67
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ba1724d013ccb4280d55bc97110134
+      internalID: -335114150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_134
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 68
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0d2dff95951724599187bec2037279
+      internalID: 1975698402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_135
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 67
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa085035d3516ac4ea420aaaadbf8f07
+      internalID: 1685538706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_136
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 67
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807ff7a98dbbda543a39c3cc75b816b9
+      internalID: -1452517152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_137
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 67
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855062e936f14b94c90210c921e0adb0
+      internalID: -7115531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_138
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 68
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22639e222a044964d8e5eea994f8bfb7
+      internalID: -1696736520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_139
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 67
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2257d2d6c150f442869a550121e1a39
+      internalID: 1232321388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_140
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 67
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85bcf33241b9ba649809b45ece23cb1c
+      internalID: 1508524061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_141
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 67
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60194f14bd240e846b24e838d9d605e3
+      internalID: -1658467738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_142
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 68
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa66a130cadb9b44c8d74476443ddf3a
+      internalID: -1156511050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_143
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 67
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5117b53171380c0468d54b3d5688b492
+      internalID: -1289445427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_144
+      rect:
+        serializedVersion: 2
+        x: 2057
+        y: 67
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7514fc02f3c9970459bece24e92e6f84
+      internalID: -38174973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_145
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 67
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcfdffc53aafbdd479046d02e0f51b1d
+      internalID: -1695491873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_146
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 68
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053984dc0988d1e49a2b06fcea139754
+      internalID: 448412475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_147
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 67
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1054c4b33ad2e7544b20bb50e0750ddb
+      internalID: 872427892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_148
+      rect:
+        serializedVersion: 2
+        x: 2185
+        y: 67
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71c6f2a881f5874b8f989d94fc58288
+      internalID: -1535656652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_149
+      rect:
+        serializedVersion: 2
+        x: 2219
+        y: 67
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d0741998b867a4284295820a72ff77
+      internalID: -1873977337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_150
+      rect:
+        serializedVersion: 2
+        x: 2251
+        y: 68
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf201afcf6d90584a81f85d4fb35b239
+      internalID: 2097412717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_151
+      rect:
+        serializedVersion: 2
+        x: 2282
+        y: 67
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303b394b9272c4b4fb23983018201bcb
+      internalID: 899966196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_152
+      rect:
+        serializedVersion: 2
+        x: 2312
+        y: 67
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a816de769bf7051499ec117a667d45cf
+      internalID: 2585160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_153
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 67
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ac17a2a3eabd741b9978c3a07d7c2e
+      internalID: -1855372446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_154
+      rect:
+        serializedVersion: 2
+        x: 2379
+        y: 68
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6b2096063509e4fb820598db445cb3
+      internalID: 523184768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_155
+      rect:
+        serializedVersion: 2
+        x: 2411
+        y: 67
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13e24076225d6449a0648ca9cf7e4dd
+      internalID: 1061965862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_156
+      rect:
+        serializedVersion: 2
+        x: 2441
+        y: 67
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d476886843759094e908629fed2ff139
+      internalID: 1009814821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_157
+      rect:
+        serializedVersion: 2
+        x: 2475
+        y: 67
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7205d9fa0d7cd454f815ea91d76dcf0a
+      internalID: -1295877283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_158
+      rect:
+        serializedVersion: 2
+        x: 2507
+        y: 68
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d722f8b470a73549a324279eb62b59a
+      internalID: 2046682895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_159
+      rect:
+        serializedVersion: 2
+        x: 2539
+        y: 67
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4376a292c4c2bac419ab49c674c74587
+      internalID: -318538174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_160
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 34
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3685a4fb17d469141a3a5bd86be0e6e5
+      internalID: -993176219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_161
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 35
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c27c6a5a72e76d4184714deae4ea1b2
+      internalID: -354318019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_162
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 36
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da43d15cedd24b40889965b58978839
+      internalID: -883770829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_163
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 34
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697b51a3188858642b4f80e663bb0a61
+      internalID: 98411419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_164
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 34
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fb8820fee0bba45911270937102835
+      internalID: -2075372215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_165
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 35
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff82b126ca65f54c99d9d323cc6ea0e
+      internalID: 1831524525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_166
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 38
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8317bc0e7693f50459be24886a8cc71a
+      internalID: 1992550088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_167
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 34
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddfcd0387b45baf4c9c138996efbb1b9
+      internalID: -687586108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_168
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 34
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e5dcbb4960b064caccbf44ee86afc0
+      internalID: 82537234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_169
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 35
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff0fb0e348f0fb4aa0a6b21f81095b1
+      internalID: -731701826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_170
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 36
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fa07f37d8519d4381d66c1aff46df8
+      internalID: -1416752546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_171
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 34
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c0c7b4a6593e24eada6f9a85cad3d4
+      internalID: -1201740025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_172
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 34
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93303cb590a132b42950e33d23dbaa5b
+      internalID: 2061166372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_173
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 35
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16afca2ae9827cd40a218026001eecd6
+      internalID: 1901501323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_174
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 38
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc683f1fd02b8fc44ac76042c909f9e1
+      internalID: -869597703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_175
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 34
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ceb4b74e096104b90c0e81548d0594
+      internalID: 960165507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_176
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 34
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27e5b3b9bf0b1141a09c672c01ab971
+      internalID: 551738193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_177
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 35
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607bdbed194d08a4c9cdc7dc7948cf33
+      internalID: -2127610092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_178
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 36
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206dd9f523105fc479be5ecf9489bf9c
+      internalID: -1942683686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_179
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 34
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2366963dc99c2409ba93fbc15e9896
+      internalID: -1921142216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_180
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 34
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880281fbc83634b40a43b101a2e50d25
+      internalID: -726586098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_181
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 35
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66343c173c9dea4d948eaa926a3f7a7
+      internalID: 1979464349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_182
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 38
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f0b7964192e684e9fe95f808ceca16
+      internalID: 757845429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_183
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 34
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72fab0fd70c5db4b93b1443f4481ba3
+      internalID: -1344897786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_184
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 34
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e443b27dbc26143bd4f73c062c9052
+      internalID: -2086025587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_185
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 35
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159290c2ec34e4241bb59aa38d57b338
+      internalID: 1573642902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_186
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 36
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187c7572aeb49e34bab60c554920d3b4
+      internalID: 1100063428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_187
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 34
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5beca2e2e90b3a4985e0682131e793f
+      internalID: -123615038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_188
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 34
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c1589d7d40bf046855b4f1a4fdd521
+      internalID: -151274942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_189
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 35
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2916cf20cabf9f64d90f2fa2128fbc86
+      internalID: 1324361430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_190
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 38
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01320ea3a0481b43bf4912521e2e519
+      internalID: -1246029036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_191
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 34
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2ed8c2392bb7a43bc12a01a8a6d876
+      internalID: 1874778668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_192
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 34
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f34416ab9220b44889231851f2521d9
+      internalID: -1047527149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_193
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 35
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10913f10a0973c940b2f19e79fe8ac9d
+      internalID: -1727109994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_194
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 36
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9b00b84a921fc418152e4685987121
+      internalID: 358232522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_195
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 34
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45723572a21bcb24dbb8be976d27adb7
+      internalID: 1914968441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_196
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 34
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc7cd04a46fa224585faab3295113a6
+      internalID: -232448428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_197
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 35
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd26249dbff08649bb1eb4768b06da8
+      internalID: 1295245800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_198
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 38
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4aff1ce2d25fec4cac985644f5a0ada
+      internalID: -433886909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_199
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 34
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b127f3edfa1174da4002a27b775185
+      internalID: 819958336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_200
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 34
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24294b24bbfc2ed41a7956cc1b85b63a
+      internalID: 1388991853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_201
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 35
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b4f20979b63d94d92da84b9fff6d99
+      internalID: -392304218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_202
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 36
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ac4b5d20f8e74458cb5ecaf90a4d14
+      internalID: 354312917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_203
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 34
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945debb8e5a40e34a9bc3d700422801f
+      internalID: 638935345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_204
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 34
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf6a0154482f604bbb044f17538c86b
+      internalID: -1118231990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_205
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 35
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727b06251c2782f489f1a6b13cbeadf1
+      internalID: 209144609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_206
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 38
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9fbbd37498b4d49bc50dfe8f24611f
+      internalID: 390848173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_207
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 34
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14c22aa6b5cd1147a833e1172d1e857
+      internalID: 1851141545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_208
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 34
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0bfa018a8a4daa4e97c0bb899f2c8e5
+      internalID: -559236278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_209
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 35
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63b1446688243e47b3b076fbdebcf65
+      internalID: 1328518689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_210
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 36
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fd2345b2d33b2449b7d2f6e53471a1
+      internalID: -1033028462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_211
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 34
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d150fdd02d83424aba659225e8c5523
+      internalID: -1377085250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_212
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 34
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e0094c8b6be714c8fc5b4045782151
+      internalID: -1347199597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_213
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 35
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e06bac0b472ea4eb79511d1a8a0cdc
+      internalID: 224205257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_214
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 38
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193d31d59cb44284b9fcc8412f4d279f
+      internalID: -1207501215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_215
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 34
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2413b98f0466be743933e0cafbcf5f43
+      internalID: -2139241998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_216
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 34
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056cfb6a0bfd0174d9c6507ca3810150
+      internalID: 1464606243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_217
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 35
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8848a7dcc2a584d4d85d4db5fb7c19e0
+      internalID: -379832806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_218
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 36
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5e76fd17d0b5940bda5e7cf8320860
+      internalID: -1246384577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_219
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 34
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba053f626abf024a9e6fc8484897cfd
+      internalID: 2042996214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_220
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 34
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c90210395713bb4bb1c865685ea4f73
+      internalID: 728063762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_221
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 35
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096b7abe2f58ede418a81e4deb315120
+      internalID: -1302358719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_222
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 38
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8057951bbc2cd4f47924af2f47da4546
+      internalID: 910895204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_223
+      rect:
+        serializedVersion: 2
+        x: 2026
+        y: 34
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef5b78f10c212640803b78de49148ae
+      internalID: -15766913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_224
+      rect:
+        serializedVersion: 2
+        x: 2057
+        y: 34
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f31e6727a06c654f94e2d5c5c930847
+      internalID: -2140757609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_225
+      rect:
+        serializedVersion: 2
+        x: 2090
+        y: 35
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5602b85cda7bd40967ab435cf3b695
+      internalID: 1594893814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_226
+      rect:
+        serializedVersion: 2
+        x: 2121
+        y: 36
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4da63f31f36134ca881eb07e8342b5
+      internalID: -1150607972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_227
+      rect:
+        serializedVersion: 2
+        x: 2154
+        y: 34
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a036508f8a78cc94ca573a9159641502
+      internalID: -551744093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_228
+      rect:
+        serializedVersion: 2
+        x: 2186
+        y: 34
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8b228b3a5cef04fb967b10b09f1256
+      internalID: -613785025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_229
+      rect:
+        serializedVersion: 2
+        x: 2217
+        y: 35
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b82568d5e2a73245b39e673d1bdf4df
+      internalID: -1824499137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_230
+      rect:
+        serializedVersion: 2
+        x: 2251
+        y: 38
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2df035b133bcf349a1e3c1b9145e4f5
+      internalID: -1793953037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_231
+      rect:
+        serializedVersion: 2
+        x: 2282
+        y: 34
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1449127aefa244593160da4313dce7
+      internalID: -1373632359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_232
+      rect:
+        serializedVersion: 2
+        x: 2314
+        y: 34
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3953fb543586fbb49b13a2aaf5c15353
+      internalID: 224998102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_233
+      rect:
+        serializedVersion: 2
+        x: 2346
+        y: 35
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb72e908a6c3dc647b726976d774a67a
+      internalID: -1140485870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_234
+      rect:
+        serializedVersion: 2
+        x: 2377
+        y: 36
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e610ff41ef0d349a814166c1112f7e
+      internalID: 570805003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_235
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 34
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252b8e2a2a40fe64cb811c9db2427f00
+      internalID: 1095118191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_236
+      rect:
+        serializedVersion: 2
+        x: 2442
+        y: 34
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c9e1f614549694b85d3970ebd643d6
+      internalID: 852689655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_237
+      rect:
+        serializedVersion: 2
+        x: 2474
+        y: 35
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06d02c1e112a18408ee8988e8cd12c1
+      internalID: -1167045412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_238
+      rect:
+        serializedVersion: 2
+        x: 2507
+        y: 38
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc8a3d33d7ca1a4ea4341c4a5617b34
+      internalID: 253785480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_239
+      rect:
+        serializedVersion: 2
+        x: 2537
+        y: 34
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c09f23e0c365cc478adfb77d4a18a90
+      internalID: -1400869325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_240
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6393f3803ae752b46beb5bf3f0978497
+      internalID: -963553396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_241
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 3
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36e2859439d2fd428b48bbf5770b104
+      internalID: -1464890051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_242
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 5
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91797a111c39054ab0753e08ed33c07
+      internalID: 2109332898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_243
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 3
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57cf4421b75a61469183a9c68c4632b
+      internalID: -645273985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_244
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 3
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a902f4934b6e63344ac4c1e54bfbec5d
+      internalID: 1258473398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_245
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 3
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c63657518faa4478a0942377877ad2
+      internalID: -1538664677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_246
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 4
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f2dbfec8dac9f48b5e583d05a4e951
+      internalID: -1717852520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_247
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 3
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b393ef96f6cca409792994554f658c
+      internalID: 1892791880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_248
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 3
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd949c53e8511c4cb6e53a9df344390
+      internalID: 1790018779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_249
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 3
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec777ee0fb74f61458e9725aebdf61ed
+      internalID: 782912974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_250
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 5
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d984165ec81aa7c46ac0d812896b3f33
+      internalID: -389659277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_251
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 3
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59f1cdac2c7b384c89478a93436da0b
+      internalID: -617745953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_252
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 3
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884eeb45324e7004495863dc532a9c31
+      internalID: -1288402902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_253
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 3
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3717cb5eb91cf6c4e8827ac04d00ec76
+      internalID: 1696511870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_254
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 4
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0101544116e04d141ac9bbfef8a4fa5a
+      internalID: 187583395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_255
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 3
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da99d9235ba6df4892dadae300b0438
+      internalID: 442070676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_256
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 3
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24d4c1fed18f5a49a324aac65a86994
+      internalID: -662339252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_257
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 3
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6823462adc8534e43a6becff8b7e4eaa
+      internalID: -830970228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_258
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 5
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2329c3a0f6c75de42bcb828de24c2d3b
+      internalID: 1644617177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_259
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 3
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29d258e48587974bbb8aac56e02556f
+      internalID: 1441591735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_260
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 3
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473328e0d4874c24f9161d8160917634
+      internalID: -241956348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_261
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 3
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad39a174e59e3a44395620c7d6dba07a
+      internalID: 835721198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_262
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 4
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b2f8a43164ca14bb6e30aab0e638cc
+      internalID: 1900068002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_263
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 3
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c50ed8eb198af499637d78517799fc
+      internalID: 563222725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_264
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 3
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00479223b39b6de43b99a6b99c3a7093
+      internalID: 702989973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_265
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 3
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8b2accd7364894ea3b9c3d078c7ba0
+      internalID: -801782749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_266
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 5
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74caad225c4a3d4280bb68277d02d97
+      internalID: 1223245688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_267
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 3
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7feb36049ccdab4c897295a35c4b20a
+      internalID: -1272488099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_268
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 3
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: debcbe80f42f98842aac497f3afb88ed
+      internalID: 1081848863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_269
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 3
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d4eae67c76c5249b61a0224764f3ad
+      internalID: 1652571867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_270
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 4
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9759b34b69636443acb911e1a0b8a8d
+      internalID: 555872515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_271
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 3
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fbcae35c15edfa4493d990306450795
+      internalID: 2031848669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_272
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 3
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e096c7076554947b2a4975deccee47
+      internalID: -52042254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_273
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 3
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5582aa7109ed4846a8de76320cdc2a7
+      internalID: -392411874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_274
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 5
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bf4b3bbfaa4024098f358408bcf9eb
+      internalID: 495515532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_275
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 3
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f6096f611f7ff40a3e1a0ba1dc2827
+      internalID: -1011174311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_276
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 3
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f850bd05cf8e324caa51e0d7cc0786a
+      internalID: 530716335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_277
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 3
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d841dc902a831004eb67d9d04451bdaf
+      internalID: -621292999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_278
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 4
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706151f65ed3ed440aa84e09642831ec
+      internalID: -1933898616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_279
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 3
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857e495b32138d84dad1884f3cec4a3d
+      internalID: 1611372745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_280
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 3
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64fe29ad78467ae468055499e0e5cb07
+      internalID: 885600345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_281
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 3
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6d5530c3854064ea6c3b608362d8a1
+      internalID: 1979292021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_282
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 5
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8321d0b7450302d4bb3485822208a633
+      internalID: -2138061607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_283
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 3
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0042b9fb3cd82146b6ae7b10726fd55
+      internalID: -374222170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_284
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 3
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2280b8b92d97fdf46a8b49e41d9bbd0a
+      internalID: -1786897721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_285
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 3
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb4978219210f442857c52717938ed5
+      internalID: 2077397706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_286
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 4
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4ea4c84668baa4b9cfda40b31b0e8d
+      internalID: -279183519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_287
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 3
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6610833da56d580479868395cd37b3c9
+      internalID: -1441483381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_288
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 3
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28def1eda8eacc4f934bffbe5649d0d
+      internalID: -497490172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_289
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 3
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d8730e943dfd2479c2d070359c7e75
+      internalID: 1483512885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_290
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 5
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0521982d158e6479be5ea66d2ace35
+      internalID: -1858287312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_291
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 3
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25ddf2699ff0e24fa99e66e50ef9fe0
+      internalID: 718881660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_292
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 3
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200e08a238f0e1b49a4721d2624173d3
+      internalID: 362443482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_293
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 3
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8621fb2cc40d8f24db9b6516d533d456
+      internalID: -890899672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_294
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 4
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69de47406f8fe7c4fad86544f47a789e
+      internalID: -1055301004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_295
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 3
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969f6b7bd42996a459dd1d2ee688b224
+      internalID: 1377122983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_296
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 3
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64ee3611f871b44ab2f4e8232495583
+      internalID: -2138913233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_297
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 3
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210eca3738eb8194f9e132a4985413df
+      internalID: -930329013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_298
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 5
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6f9e4b2b2d30746a7c91d5f2f746f3
+      internalID: 424377430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_299
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 3
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b856b8bde8ffbc44b7910038457baae
+      internalID: 968402885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_300
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 3
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73fd999dade43bd4e9ca223c74261c2c
+      internalID: 1524745120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_301
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 3
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c146f71889b94304a99bf3c36c1bc813
+      internalID: 1966908704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_302
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 4
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95e595153d8c8b4399ae8f518eb6fa2
+      internalID: 862323928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_303
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 3
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3c12ed4141de3468f55efd35b52956
+      internalID: -1701840847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_304
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 3
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040b3f0848c474a4cb406ac45e485d4c
+      internalID: -349996723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_305
+      rect:
+        serializedVersion: 2
+        x: 2091
+        y: 3
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7294a09d1143bd44ca8cd1e3a01d2ba4
+      internalID: -1846371972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_306
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 5
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ef80a4f63022649b931a6dce583bfa
+      internalID: -1087075972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_307
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 3
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffbfae64dd80a84faa2c5b8e7b60997
+      internalID: 482582462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_308
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 3
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc7c76d709d5504bbcf81837c744ea8
+      internalID: -584463246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_309
+      rect:
+        serializedVersion: 2
+        x: 2217
+        y: 3
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2488e957d0b4a4445970e155a80dcf6b
+      internalID: 867029996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_310
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 4
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31db4a37542fd84d84f119cb00b8365
+      internalID: 1137601889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_311
+      rect:
+        serializedVersion: 2
+        x: 2281
+        y: 3
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72801108d7106eb439f260bab11902c7
+      internalID: 1023821474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_312
+      rect:
+        serializedVersion: 2
+        x: 2315
+        y: 3
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec504fadb8f1fb4bbc42f383058884f
+      internalID: -1179631965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_313
+      rect:
+        serializedVersion: 2
+        x: 2347
+        y: 3
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0007b9f70e8e809439724b73bb0d24f1
+      internalID: 942804076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_314
+      rect:
+        serializedVersion: 2
+        x: 2379
+        y: 5
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe54664aefb889f4eb17429b80996f20
+      internalID: 2118864723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_315
+      rect:
+        serializedVersion: 2
+        x: 2411
+        y: 3
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93fa299e07c62040b887323c7381d18
+      internalID: -69332023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_316
+      rect:
+        serializedVersion: 2
+        x: 2442
+        y: 3
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93feeae06a9c68249b029400e66fb684
+      internalID: -436345304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_317
+      rect:
+        serializedVersion: 2
+        x: 2472
+        y: 3
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de88ac0820111264887589383463cf51
+      internalID: 2115084952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_318
+      rect:
+        serializedVersion: 2
+        x: 2506
+        y: 4
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f42be538b68e7842ba795fc2b8e3cc3
+      internalID: 933952800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: overalls_walk 1_319
+      rect:
+        serializedVersion: 2
+        x: 2537
+        y: 3
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dffa22d1eb9e1474182e97c62e4fdc9e
+      internalID: -1028198768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      overalls_walk 1_85: -1390365203
+      overalls_walk 1_270: 555872515
+      overalls_walk 1_80: -467636239
+      overalls_walk 1_159: -318538174
+      overalls_walk 1_46: 1535146331
+      overalls_walk 1_16: 19160184
+      overalls_walk 1_176: 551738193
+      overalls_walk 1_178: -1942683686
+      overalls_walk 1_149: -1873977337
+      overalls_walk 1_53: -1414071177
+      overalls_walk 1_58: -1616808383
+      overalls_walk 1_25: -1202924488
+      overalls_walk 1_144: -38174973
+      overalls_walk 1_177: -2127610092
+      overalls_walk 1_45: -1568344274
+      overalls_walk 1_83: 2015866909
+      overalls_walk 1_244: 1258473398
+      overalls_walk 1_295: 1377122983
+      overalls_walk 1_241: -1464890051
+      overalls_walk 1_24: -786391957
+      overalls_walk 1_61: -1626678757
+      overalls_walk 1_10: -1404138619
+      overalls_walk 1_76: 109029736
+      overalls_walk 1_6: 431404313
+      overalls_walk 1_56: 1731106148
+      overalls_walk 1_4: -1715468570
+      overalls_walk 1_106: 9580651
+      overalls_walk 1_192: -1047527149
+      overalls_walk 1_101: 2114620617
+      overalls_walk 1_27: 872089670
+      overalls_walk 1_17: -59368036
+      overalls_walk 1_316: -436345304
+      overalls_walk 1_109: -395035202
+      overalls_walk 1_57: -394622753
+      overalls_walk 1_259: 1441591735
+      overalls_walk 1_291: 718881660
+      overalls_walk 1_127: -345284508
+      overalls_walk 1_11: -97179975
+      overalls_walk 1_189: 1324361430
+      overalls_walk 1_166: 1992550088
+      overalls_walk 1_175: 960165507
+      overalls_walk 1_239: -1400869325
+      overalls_walk 1_302: 862323928
+      overalls_walk 1_181: 1979464349
+      overalls_walk 1_63: 1154470066
+      overalls_walk 1_7: -213971527
+      overalls_walk 1_13: 39617078
+      overalls_walk 1_179: -1921142216
+      overalls_walk 1_224: -2140757609
+      overalls_walk 1_273: -392411874
+      overalls_walk 1_191: 1874778668
+      overalls_walk 1_62: 318579616
+      overalls_walk 1_314: 2118864723
+      overalls_walk 1_231: -1373632359
+      overalls_walk 1_140: 1508524061
+      overalls_walk 1_215: -2139241998
+      overalls_walk 1_222: 910895204
+      overalls_walk 1_157: -1295877283
+      overalls_walk 1_33: -575240215
+      overalls_walk 1_182: 757845429
+      overalls_walk 1_258: 1644617177
+      overalls_walk 1_70: 1543491177
+      overalls_walk 1_211: -1377085250
+      overalls_walk 1_9: -1768824861
+      overalls_walk 1_311: 1023821474
+      overalls_walk 1_32: 1750617391
+      overalls_walk 1_242: 2109332898
+      overalls_walk 1_293: -890899672
+      overalls_walk 1_35: 875552856
+      overalls_walk 1_129: 1287994112
+      overalls_walk 1_207: 1851141545
+      overalls_walk 1_275: -1011174311
+      overalls_walk 1_107: -648784318
+      overalls_walk 1_304: -349996723
+      overalls_walk 1_156: 1009814821
+      overalls_walk 1_153: -1855372446
+      overalls_walk 1_130: 235618161
+      overalls_walk 1_198: -433886909
+      overalls_walk 1_163: 98411419
+      overalls_walk 1_94: -2093979726
+      overalls_walk 1_60: 2078188919
+      overalls_walk 1_169: -731701826
+      overalls_walk 1_243: -645273985
+      overalls_walk 1_119: -1808715736
+      overalls_walk 1_136: -1452517152
+      overalls_walk 1_235: 1095118191
+      overalls_walk 1_221: -1302358719
+      overalls_walk 1_23: 36911766
+      overalls_walk 1_77: 112443331
+      overalls_walk 1_117: 452967761
+      overalls_walk 1_28: -1155607895
+      overalls_walk 1_146: 448412475
+      overalls_walk 1_263: 563222725
+      overalls_walk 1_96: 2121355976
+      overalls_walk 1_228: -613785025
+      overalls_walk 1_285: 2077397706
+      overalls_walk 1_266: 1223245688
+      overalls_walk 1_68: -444810395
+      overalls_walk 1_48: 436743361
+      overalls_walk 1_280: 885600345
+      overalls_walk 1_105: 1718010509
+      overalls_walk 1_289: 1483512885
+      overalls_walk 1_125: -493061408
+      overalls_walk 1_18: 1108261650
+      overalls_walk 1_196: -232448428
+      overalls_walk 1_21: 710650521
+      overalls_walk 1_97: 1894078597
+      overalls_walk 1_245: -1538664677
+      overalls_walk 1_39: 251940186
+      overalls_walk 1_121: 552321565
+      overalls_walk 1_50: -2086369283
+      overalls_walk 1_318: 933952800
+      overalls_walk 1_268: 1081848863
+      overalls_walk 1_218: -1246384577
+      overalls_walk 1_214: -1207501215
+      overalls_walk 1_234: 570805003
+      overalls_walk 1_26: 1639303488
+      overalls_walk 1_257: -830970228
+      overalls_walk 1_260: -241956348
+      overalls_walk 1_297: -930329013
+      overalls_walk 1_317: 2115084952
+      overalls_walk 1_300: 1524745120
+      overalls_walk 1_296: -2138913233
+      overalls_walk 1_51: -1549026489
+      overalls_walk 1_267: -1272488099
+      overalls_walk 1_100: 176654708
+      overalls_walk 1_202: 354312917
+      overalls_walk 1_0: -1366322129
+      overalls_walk 1_34: -580160900
+      overalls_walk 1_190: -1246029036
+      overalls_walk 1_229: -1824499137
+      overalls_walk 1_294: -1055301004
+      overalls_walk 1_151: 899966196
+      overalls_walk 1_199: 819958336
+      overalls_walk 1_124: 285925548
+      overalls_walk 1_154: 523184768
+      overalls_walk 1_126: 1423725567
+      overalls_walk 1_174: -869597703
+      overalls_walk 1_271: 2031848669
+      overalls_walk 1_217: -379832806
+      overalls_walk 1_250: -389659277
+      overalls_walk 1_213: 224205257
+      overalls_walk 1_104: -1392499684
+      overalls_walk 1_91: -2035512950
+      overalls_walk 1_158: 2046682895
+      overalls_walk 1_52: 102564097
+      overalls_walk 1_249: 782912974
+      overalls_walk 1_43: 739930328
+      overalls_walk 1_137: -7115531
+      overalls_walk 1_74: -589369476
+      overalls_walk 1_132: -1911429515
+      overalls_walk 1_30: 1440428562
+      overalls_walk 1_194: 358232522
+      overalls_walk 1_112: -1741736021
+      overalls_walk 1_200: 1388991853
+      overalls_walk 1_114: -1139786222
+      overalls_walk 1_210: -1033028462
+      overalls_walk 1_238: 253785480
+      overalls_walk 1_255: 442070676
+      overalls_walk 1_5: -384496516
+      overalls_walk 1_265: -801782749
+      overalls_walk 1_41: 1998815280
+      overalls_walk 1_73: 2043162825
+      overalls_walk 1_161: -354318019
+      overalls_walk 1_308: -584463246
+      overalls_walk 1_248: 1790018779
+      overalls_walk 1_15: -745001235
+      overalls_walk 1_204: -1118231990
+      overalls_walk 1_143: -1289445427
+      overalls_walk 1_19: -686278745
+      overalls_walk 1_123: 1317187364
+      overalls_walk 1_87: 699493532
+      overalls_walk 1_81: 111316610
+      overalls_walk 1_254: 187583395
+      overalls_walk 1_167: -687586108
+      overalls_walk 1_276: 530716335
+      overalls_walk 1_206: 390848173
+      overalls_walk 1_3: 1397274680
+      overalls_walk 1_201: -392304218
+      overalls_walk 1_95: 440141696
+      overalls_walk 1_232: 224998102
+      overalls_walk 1_59: 457051106
+      overalls_walk 1_160: -993176219
+      overalls_walk 1_281: 1979292021
+      overalls_walk 1_261: 835721198
+      overalls_walk 1_134: 1975698402
+      overalls_walk 1_8: 1645545912
+      overalls_walk 1_145: -1695491873
+      overalls_walk 1_170: -1416752546
+      overalls_walk 1_180: -726586098
+      overalls_walk 1_230: -1793953037
+      overalls_walk 1_223: -15766913
+      overalls_walk 1_290: -1858287312
+      overalls_walk 1_283: -374222170
+      overalls_walk 1_303: -1701840847
+      overalls_walk 1_310: 1137601889
+      overalls_walk 1_282: -2138061607
+      overalls_walk 1_116: 1847591263
+      overalls_walk 1_135: 1685538706
+      overalls_walk 1_65: -726975514
+      overalls_walk 1_184: -2086025587
+      overalls_walk 1_147: 872427892
+      overalls_walk 1_99: 990136703
+      overalls_walk 1_36: -665908159
+      overalls_walk 1_164: -2075372215
+      overalls_walk 1_287: -1441483381
+      overalls_walk 1_278: -1933898616
+      overalls_walk 1_262: 1900068002
+      overalls_walk 1_102: -392910848
+      overalls_walk 1_205: 209144609
+      overalls_walk 1_133: -335114150
+      overalls_walk 1_193: -1727109994
+      overalls_walk 1_86: 1139692867
+      overalls_walk 1_110: -1320319821
+      overalls_walk 1_309: 867029996
+      overalls_walk 1_118: -1964921055
+      overalls_walk 1_98: 1270981703
+      overalls_walk 1_256: -662339252
+      overalls_walk 1_227: -551744093
+      overalls_walk 1_93: 866308378
+      overalls_walk 1_92: -1481501664
+      overalls_walk 1_88: -1121313119
+      overalls_walk 1_37: -112478413
+      overalls_walk 1_203: 638935345
+      overalls_walk 1_142: -1156511050
+      overalls_walk 1_269: 1652571867
+      overalls_walk 1_78: -33312208
+      overalls_walk 1_319: -1028198768
+      overalls_walk 1_22: -1733436753
+      overalls_walk 1_305: -1846371972
+      overalls_walk 1_79: -1627017000
+      overalls_walk 1_183: -1344897786
+      overalls_walk 1_44: -1281060300
+      overalls_walk 1_162: -883770829
+      overalls_walk 1_38: -1841249356
+      overalls_walk 1_84: 654703177
+      overalls_walk 1_246: -1717852520
+      overalls_walk 1_292: 362443482
+      overalls_walk 1_141: -1658467738
+      overalls_walk 1_264: 702989973
+      overalls_walk 1_120: 141110497
+      overalls_walk 1_225: 1594893814
+      overalls_walk 1_279: 1611372745
+      overalls_walk 1_251: -617745953
+      overalls_walk 1_277: -621292999
+      overalls_walk 1_286: -279183519
+      overalls_walk 1_67: -1798113160
+      overalls_walk 1_306: -1087075972
+      overalls_walk 1_66: -767800964
+      overalls_walk 1_172: 2061166372
+      overalls_walk 1_131: 1481359223
+      overalls_walk 1_31: 152600856
+      overalls_walk 1_42: 1729634051
+      overalls_walk 1_103: -1940414029
+      overalls_walk 1_122: -2089883007
+      overalls_walk 1_49: 264449328
+      overalls_walk 1_219: 2042996214
+      overalls_walk 1_1: -1513653687
+      overalls_walk 1_220: 728063762
+      overalls_walk 1_274: 495515532
+      overalls_walk 1_226: -1150607972
+      overalls_walk 1_155: 1061965862
+      overalls_walk 1_128: 280298538
+      overalls_walk 1_148: -1535656652
+      overalls_walk 1_315: -69332023
+      overalls_walk 1_216: 1464606243
+      overalls_walk 1_197: 1295245800
+      overalls_walk 1_236: 852689655
+      overalls_walk 1_173: 1901501323
+      overalls_walk 1_188: -151274942
+      overalls_walk 1_208: -559236278
+      overalls_walk 1_195: 1914968441
+      overalls_walk 1_150: 2097412717
+      overalls_walk 1_209: 1328518689
+      overalls_walk 1_307: 482582462
+      overalls_walk 1_168: 82537234
+      overalls_walk 1_2: -168392311
+      overalls_walk 1_152: 2585160
+      overalls_walk 1_288: -497490172
+      overalls_walk 1_186: 1100063428
+      overalls_walk 1_82: -1600676561
+      overalls_walk 1_12: 322457314
+      overalls_walk 1_113: -2140538300
+      overalls_walk 1_138: -1696736520
+      overalls_walk 1_247: 1892791880
+      overalls_walk 1_185: 1573642902
+      overalls_walk 1_237: -1167045412
+      overalls_walk 1_90: 624615978
+      overalls_walk 1_240: -963553396
+      overalls_walk 1_64: 1776115156
+      overalls_walk 1_108: 44729725
+      overalls_walk 1_298: 424377430
+      overalls_walk 1_69: -677759012
+      overalls_walk 1_72: 1370043254
+      overalls_walk 1_171: -1201740025
+      overalls_walk 1_233: -1140485870
+      overalls_walk 1_312: -1179631965
+      overalls_walk 1_71: -743538010
+      overalls_walk 1_55: -26362103
+      overalls_walk 1_111: -193271467
+      overalls_walk 1_272: -52042254
+      overalls_walk 1_47: -750890359
+      overalls_walk 1_75: -1076100244
+      overalls_walk 1_187: -123615038
+      overalls_walk 1_284: -1786897721
+      overalls_walk 1_54: 1447171988
+      overalls_walk 1_212: -1347199597
+      overalls_walk 1_115: -1289318741
+      overalls_walk 1_252: -1288402902
+      overalls_walk 1_20: 790017170
+      overalls_walk 1_165: 1831524525
+      overalls_walk 1_253: 1696511870
+      overalls_walk 1_299: 968402885
+      overalls_walk 1_313: 942804076
+      overalls_walk 1_14: -846689890
+      overalls_walk 1_139: 1232321388
+      overalls_walk 1_89: 477938351
+      overalls_walk 1_301: 1966908704
+      overalls_walk 1_29: 394423555
+      overalls_walk 1_40: 1534503708
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

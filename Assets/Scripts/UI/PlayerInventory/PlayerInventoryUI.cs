@@ -3,6 +3,7 @@ using SOScripts;
 using UnityEngine;
 using UnityEngine.UI;
 using Managers.Inputs;
+using UI.Inventory;
 
 namespace UI.PlayerInventory
 {
@@ -34,6 +35,7 @@ namespace UI.PlayerInventory
             inventoryPanel.SetActive(true);
             previewPanel.SetActive(true);
             previewClothe.gameObject.SetActive(false);
+            _inputManager.DisableMovement();
         }
 
         private void CloseInventory()
@@ -42,6 +44,7 @@ namespace UI.PlayerInventory
             inventoryPanel.SetActive(false);
             previewPanel.SetActive(false);
             previewClothe.gameObject.SetActive(false);
+            _inputManager.EnableMovement();
         }
 
         

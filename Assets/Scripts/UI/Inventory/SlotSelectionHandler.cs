@@ -1,5 +1,6 @@
 ﻿using System;
 using SOScripts;
+using UI.Inventory;
 using UnityEngine;
 using UnityEngine.EventSystems;
 

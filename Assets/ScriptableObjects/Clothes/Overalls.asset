@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 139e6d666c174a8aaeba37251f1ad69a, type: 3}
   m_Name: Overalls
   m_EditorClassIdentifier: 
-  clotheName: Overalls
-  clotheIconSprite: {fileID: -1366322129, guid: 43f80a7cc7154ef4ab8a1091580995ad, type: 3}
-  clotheBodySprite: {fileID: -1598153586, guid: 8cab0447bfac63043964bada7fee8acf, type: 3}
+  clotheIconSprite: {fileID: 21300000, guid: 515be4da5da259a44abba50f1ed372e5, type: 2}
+  clotheBodySprite: {fileID: -1839447824, guid: 8cab0447bfac63043964bada7fee8acf, type: 3}
   baseClotheCost: 300
   clotheCost: 300
-  clotheAnimController: {fileID: 0}
+  clotheAnimController: {fileID: 9100000, guid: c333a88f81f9a744197c6ba8a699fb5d, type: 2}

@@ -5,7 +5,7 @@ using UnityEngine.Serialization;
 
 namespace SOScripts
 {
-    [CreateAssetMenu(fileName = "New Clothes Inventory", menuName = "Clothes/Clothes Inventory")]
+    [CreateAssetMenu(fileName = "New Clothes Inventory", menuName = "Clothes/New Clothes Inventory")]
     public class ClothesInventory : ScriptableObject
     {
         public List<Clothes> clothesInventory = new List<Clothes>();

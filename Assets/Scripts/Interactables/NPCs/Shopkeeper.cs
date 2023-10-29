@@ -1,10 +1,7 @@
-using Interactables;
-using UI;
 using UI.Shop;
 using UnityEngine;
-using UnityEngine.Serialization;
 
-namespace Systems.Interactables.NPCs
+namespace Interactables.NPCs
 {
     public class Shopkeeper : InteractableObject
     {

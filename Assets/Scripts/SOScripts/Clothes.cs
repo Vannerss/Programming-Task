@@ -1,6 +1,4 @@
-﻿using UnityEditor.Animations;
-using UnityEngine;
-using UnityEngine.Serialization;
+﻿using UnityEngine;
 
 namespace SOScripts
 {
@@ -11,6 +9,6 @@ namespace SOScripts
         public Sprite clotheBodySprite;
         public int baseClotheCost;
         public int clotheCost;
-        public AnimatorController clotheAnimController;
+        public RuntimeAnimatorController clotheAnimController;
     }
 }

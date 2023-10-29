@@ -12,6 +12,7 @@ namespace Player
 
         private PlayerManager _playerManager;
         private InputManager _input;
+        private static readonly int Moving = Animator.StringToHash("Moving");
         private static readonly int BlendX = Animator.StringToHash("BlendX");
         private static readonly int BlendY = Animator.StringToHash("BlendY");
 
@@ -25,17 +26,25 @@ namespace Player
             animator = GetComponent<Animator>();
             clotheAnimator = transform.GetChild(0).GetComponent<Animator>();
         }
-
-        private void UpdateClothes()
-        {
-            //set the animator controller of the clothe animator to be the equipped clothes anim controller.
-            clotheAnimator.runtimeAnimatorController = _playerManager.equippedClothes.clotheAnimController;
-        }
         
         private void Update()
         {
-            var inputDirection = _input.GetMovementDirection();
-
+            UpdateAnims(_input.GetMovementDirection());
+        }
+        
+        private void UpdateAnims(Vector2 inputDirection)
+        {
+            if (inputDirection.magnitude > 0.1f)
+            {
+                animator.SetBool(Moving, true);
+                clotheAnimator.SetBool(Moving, true);
+            }
+            else
+            {
+                animator.SetBool(Moving, false);
+                clotheAnimator.SetBool(Moving, false);
+            }
+            
             animator.SetFloat(BlendX, inputDirection.x);
             animator.SetFloat(BlendY, inputDirection.y);
 
@@ -43,6 +52,13 @@ namespace Player
             
             clotheAnimator.SetFloat(BlendX, inputDirection.x);
             clotheAnimator.SetFloat(BlendY, inputDirection.y);
+            
+        }
+        
+        private void UpdateClothes()
+        {
+            //set the animator controller of the clothe animator to be the equipped clothes anim controller.
+            clotheAnimator.runtimeAnimatorController = _playerManager.equippedClothes.clotheAnimController;
         }
     }
 }

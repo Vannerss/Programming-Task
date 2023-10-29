@@ -9,12 +9,10 @@ namespace Interactables
         [SerializeField] protected float interactionRange;
         [SerializeField] protected Transform playerTransform;
 
-        public bool canInteract;
-
         //Created so it runs only once on update when the range was achieved.
         private InputManager _inputManager;
         
-        private void OnDrawGizmos()
+        private void OnDrawGizmosSelected()
         {
             Gizmos.DrawWireSphere(this.transform.position, interactionRange);
         }

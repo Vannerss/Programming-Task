@@ -2,6 +2,7 @@
 using Player;
 using SOScripts;
 using TMPro;
+using UI.Inventory;
 using UnityEngine;
 using UnityEngine.UI;
 
