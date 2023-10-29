@@ -5,8 +5,9 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace UI
+namespace UI.Shop
 {
+    //TODO: MAKE THE SHOP BE ABLE TO BE CLOSED WITH ESC KEY.
     public class ShopManagerUI : MonoBehaviour
     {
         [Header("Inventory Panels")]

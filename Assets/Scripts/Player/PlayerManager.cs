@@ -12,6 +12,10 @@ namespace Player
         
         public static PlayerManager Instance;
         
+        public Clothes equippedClothes;
+
+        public event Action OnClothesEquipped;
+        
         [field: SerializeField]
         public int Gold { get; private set; }
         
@@ -48,6 +52,13 @@ namespace Player
         private void UpdateGoldUI()
         {
             goldAmount.text = Gold.ToString();
+        }
+
+        public void EquipClothes(Clothes clothe)
+        {
+            equippedClothes = clothe;
+            transform.GetChild(0).GetComponent<SpriteRenderer>().sprite = equippedClothes.clotheBodySprite;
+            OnClothesEquipped?.Invoke();
         }
     }
 }
