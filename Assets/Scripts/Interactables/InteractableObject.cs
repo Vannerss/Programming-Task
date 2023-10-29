@@ -8,8 +8,7 @@ namespace Interactables
     {
         [SerializeField] protected float interactionRange;
         [SerializeField] protected Transform playerTransform;
-
-        //Created so it runs only once on update when the range was achieved.
+        
         private InputManager _inputManager;
         
         private void OnDrawGizmosSelected()
@@ -19,16 +18,23 @@ namespace Interactables
 
         protected virtual void Start()
         {
-            _inputManager = InputManager.Instance;
             playerTransform = GameObject.FindWithTag("Player").transform;
+        }
+
+        private void OnEnable()
+        {
+            _inputManager = InputManager.Instance;
             _inputManager.OnInteract += Interact;
+        }
+        
+        private void OnDisable()
+        {
+            _inputManager.OnInteract -= Interact;
         }
 
         protected abstract void Interact(bool isInteracting);
         
-        private void OnDestroy()
-        {
-            _inputManager.OnInteract -= Interact;
-        }
+
+
     }
 }

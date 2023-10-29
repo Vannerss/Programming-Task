@@ -37,12 +37,14 @@ namespace Player
             if (inputDirection.magnitude > 0.1f)
             {
                 animator.SetBool(Moving, true);
-                clotheAnimator.SetBool(Moving, true);
+                if (clotheAnimator.runtimeAnimatorController != null)//Guard Clause
+                    clotheAnimator.SetBool(Moving, true);
             }
             else
             {
                 animator.SetBool(Moving, false);
-                clotheAnimator.SetBool(Moving, false);
+                if (clotheAnimator.runtimeAnimatorController != null) //Guard Clause
+                    clotheAnimator.SetBool(Moving, false);
             }
             
             animator.SetFloat(BlendX, inputDirection.x);

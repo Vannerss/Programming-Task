@@ -1,20 +1,26 @@
-﻿using Interactables;
-using TMPro;
+﻿using TMPro;
 using UnityEngine;
 
-namespace Systems.Interactables.Objects
+namespace Interactables.Objects
 {
     public class Sign : InteractableObject
     {
-        [SerializeField, TextArea(3, 6)] private string signText;
         [SerializeField] private TextMeshProUGUI signUIText;
+        [SerializeField] private GameObject emote;
 
-        protected override void Start()
+        
+        private void Update()
         {
-            base.Start();
-            //signUIText.text = signText;
+            if (Vector3.Distance(this.transform.position, playerTransform.position) < interactionRange)
+            {
+                emote.SetActive(true);
+            }
+            else
+            {
+                emote.SetActive(false);
+            }
         }
-
+        
         protected override void Interact(bool isInteracting)
         {
             if(Vector3.Distance(this.transform.position, playerTransform.position) > interactionRange)
