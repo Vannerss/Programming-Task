@@ -1,4 +1,5 @@
-﻿using TMPro;
+﻿using Managers.Inputs;
+using TMPro;
 using UnityEngine;
 
 namespace Interactables.Objects
@@ -15,9 +16,12 @@ namespace Interactables.Objects
         [SerializeField, TextArea(3, 6)] private string text;
         [SerializeField] private TextMeshProUGUI signUIText;
 
+        private InputManager _inputManager;
+        
         protected override void Start()
         {
             base.Start();
+            _inputManager = InputManager.Instance;
             signUIText.text = text;
         }
 
@@ -38,11 +42,13 @@ namespace Interactables.Objects
         private void Open()
         {
             panel.SetActive(true);
+            _inputManager.DisableMovement();
         }
         
         public void Close()
         {
             panel.SetActive(false);
+            _inputManager.EnableMovement();
         }
     }
 }

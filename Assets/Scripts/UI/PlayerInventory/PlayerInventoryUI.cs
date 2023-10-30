@@ -45,6 +45,7 @@ namespace UI.PlayerInventory
         {
             inventory.OnSlotSelected += ClotheSelection;
             
+            equipButton.gameObject.SetActive(false);
             inventoryPanel.SetActive(true);
             previewPanel.SetActive(true);
             
@@ -66,8 +67,8 @@ namespace UI.PlayerInventory
         {
             inventory.OnSlotSelected -= ClotheSelection;
             
+            equipButton.gameObject.SetActive(false);
             inventoryPanel.SetActive(false);
-            
             previewPanel.SetActive(false);
             previewClothe.gameObject.SetActive(false);
             
