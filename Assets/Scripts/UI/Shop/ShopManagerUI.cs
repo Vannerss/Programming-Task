@@ -126,6 +126,7 @@ namespace UI.Shop
         private void Buy()
         {
             audioSource.PlayOneShot(buysellSfx);
+            
             if (_selectedClothe.clotheCost > _playerManager.Gold)
             {
                 Debug.Log("Not enough gold.");
@@ -135,7 +136,8 @@ namespace UI.Shop
             _playerManager.ReduceGold(_selectedClothe.baseClotheCost);
             
             //make clothes sell for cheaper after purchase.
-            _selectedClothe.clotheCost -= (int)(_selectedClothe.baseClotheCost * 0.20f);
+            var reduceCost = (int)(_selectedClothe.baseClotheCost * 0.20f);
+            _selectedClothe.clotheCost = _selectedClothe.baseClotheCost - reduceCost;
             
             playerInventoryUI.clothesInventory.AddClothes(_selectedClothe);
             shopInventoryUI.clothesInventory.RemoveClothes(_selectedClothe);

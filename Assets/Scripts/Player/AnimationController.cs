@@ -25,17 +25,9 @@ namespace Player
 
             animator = GetComponent<Animator>();
             clotheAnimator = transform.GetChild(0).GetComponent<Animator>();
-        }
-
-        private void OnEnable()
-        {
             _playerManager = PlayerManager.Instance;
             _playerManager.OnClothesEquipChange += UpdateClothes;
-        }
 
-        private void OnDisable()
-        {
-            _playerManager.OnClothesEquipChange -= UpdateClothes;
         }
 
         private void Update()
@@ -81,6 +73,11 @@ namespace Player
             
             //set the animator controller of the clothe animator to be the equipped clothes anim controller.
             clotheAnimator.runtimeAnimatorController = _playerManager.equippedClothes.clotheAnimController;
+        }
+        
+        private void OnDestroy()
+        {
+            _playerManager.OnClothesEquipChange -= UpdateClothes;
         }
     }
 }

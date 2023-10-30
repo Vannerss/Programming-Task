@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: ShopInventory
   m_EditorClassIdentifier: 
   clothesInventory:
-  - {fileID: 11400000, guid: e7532940fe3c9e34f8fd9a99872e9bed, type: 2}
+  - {fileID: 11400000, guid: 94b318b96b5dddd45805b70c2b7ee695, type: 2}
+  - {fileID: 11400000, guid: 0f4b88e795aa5134a9ad1146ad1c04bf, type: 2}
   - {fileID: 11400000, guid: 453d9141ad3fdf34dab11345a2305e90, type: 2}
+  - {fileID: 11400000, guid: e7532940fe3c9e34f8fd9a99872e9bed, type: 2}
