@@ -4,6 +4,9 @@ using UnityEngine.InputSystem;
 
 namespace Managers.Inputs
 {
+    /// <summary>
+    /// Handles all the game inputs.
+    /// </summary>
     public class InputManager : MonoBehaviour
     {
         public static InputManager Instance;
@@ -15,7 +18,6 @@ namespace Managers.Inputs
 
         public event Action<bool> OnInteract;
         public event Action<bool> OnOpenInventory;
-        
         
         private void Awake()
         {
@@ -57,6 +59,10 @@ namespace Managers.Inputs
             _inventory.Disable();
         }
 
+        /// <summary>
+        /// Reads the input's value.
+        /// </summary>
+        /// <returns>returns a Vector2 value of the inputs.</returns>
         public Vector2 GetMovementDirection()
         {
             return _move.ReadValue<Vector2>();

@@ -6,20 +6,16 @@ namespace Interactables.NPCs
 {
     public class Shopkeeper : InteractableObject
     {
-        [SerializeField] private ShopManagerUI shopInterface;
+        [Header("Interaction Emote")]
         [SerializeField] private GameObject emote;
-        //Interact with shopkeeper to open shop interface.
+        
+        [Header("Shop Interface")]
+        [SerializeField] private ShopManagerUI shopInterface;
 
         private void Update()
         {
-            if (Vector3.Distance(this.transform.position, playerTransform.position) < interactionRange)
-            {
-                emote.SetActive(true);
-            }
-            else
-            {
-                emote.SetActive(false);
-            }
+            //Enable emote if player is on interaction range.
+            emote.SetActive(Vector3.Distance(this.transform.position, playerTransform.position) < interactionRange);
         }
 
         protected override void Interact(bool isInteracting)

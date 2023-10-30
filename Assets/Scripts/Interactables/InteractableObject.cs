@@ -1,4 +1,3 @@
-using System;
 using Managers.Inputs;
 using UnityEngine;
 
@@ -34,7 +33,5 @@ namespace Interactables
 
         protected abstract void Interact(bool isInteracting);
         
-
-
     }
 }

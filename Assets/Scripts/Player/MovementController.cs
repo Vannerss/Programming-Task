@@ -9,6 +9,7 @@ namespace Player
     [RequireComponent(typeof(Rigidbody2D))]
     public class MovementController : MonoBehaviour
     {
+        [Header("Movement Speed")]
         [SerializeField] private float moveSpeed = 5f;
         
         private InputManager _input;

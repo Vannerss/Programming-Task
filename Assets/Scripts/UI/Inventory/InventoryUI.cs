@@ -1,13 +1,18 @@
 ﻿using System;
 using SOScripts;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 namespace UI.Inventory
 {
     public class InventoryUI : MonoBehaviour
     {
+        
+        [Header("Clothes Inventory")]
         public ClothesInventory clothesInventory;
+        
+        [Header("Indicator")]
         public GameObject indicator;
         
         public event Action<Clothes> OnSlotSelected;
@@ -48,8 +53,8 @@ namespace UI.Inventory
         /// Receives the data from the selected clothe slot in the inventory
         /// and then invokes and 
         /// </summary>
-        /// <param name="clothe"></param>
-        /// <param name="clotheSlot"></param>
+        /// <param name="clothe">The clothe that was selected</param>
+        /// <param name="clotheSlot">The clothe slot transform to move the indicator.</param>
         public void ClotheSelected(Clothes clothe, Transform clotheSlot)
         {
             if (!indicator.activeSelf)
@@ -58,7 +63,7 @@ namespace UI.Inventory
             indicator.transform.SetParent(clotheSlot);
             indicator.transform.SetAsLastSibling();
             indicator.transform.localPosition = Vector3.zero;
-            
+               
             OnSlotSelected?.Invoke(clothe);
         }
     }

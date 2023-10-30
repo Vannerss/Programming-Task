@@ -5,20 +5,26 @@ namespace Interactables.Objects
 {
     public class Sign : InteractableObject
     {
-        [SerializeField] private TextMeshProUGUI signUIText;
+        [Header("Interaction Emote")]
         [SerializeField] private GameObject emote;
-
         
+        [Header("Sign Panel")]
+        [SerializeField] private GameObject panel;
+        
+        [Header("Text To Display")]
+        [SerializeField, TextArea(3, 6)] private string text;
+        [SerializeField] private TextMeshProUGUI signUIText;
+
+        protected override void Start()
+        {
+            base.Start();
+            signUIText.text = text;
+        }
+
         private void Update()
         {
-            if (Vector3.Distance(this.transform.position, playerTransform.position) < interactionRange)
-            {
-                emote.SetActive(true);
-            }
-            else
-            {
-                emote.SetActive(false);
-            }
+            //Enable emote if player is on interaction range.
+            emote.SetActive(Vector3.Distance(this.transform.position, playerTransform.position) < interactionRange);
         }
         
         protected override void Interact(bool isInteracting)
@@ -26,9 +32,17 @@ namespace Interactables.Objects
             if(Vector3.Distance(this.transform.position, playerTransform.position) > interactionRange)
                 return;
 
-            //TODO: CREATE THE SIGN TEXT
-            
-            //signUIText.gameObject.SetActive(isInteracting);
+            Open();
+        }
+
+        private void Open()
+        {
+            panel.SetActive(true);
+        }
+        
+        public void Close()
+        {
+            panel.SetActive(false);
         }
     }
 }

@@ -1,10 +1,8 @@
-﻿using System;
-using SOScripts;
-using UI.Inventory;
+﻿using SOScripts;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace UI
+namespace UI.Inventory
 {
     public class SlotSelectionHandler : MonoBehaviour, IPointerClickHandler
     {
